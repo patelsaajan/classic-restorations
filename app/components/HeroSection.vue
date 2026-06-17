@@ -70,9 +70,9 @@ function toggle(id: number) {
 
 <template>
   <section id="work" class="bg-cream px-8 pt-14 pb-6">
-    <div class="mx-auto max-w-[1320px]">
+    <div class="mx-auto max-w-330">
       <!-- Title block -->
-      <div class="mx-auto mb-9 max-w-[1100px] text-center">
+      <div class="mx-auto mb-9 max-w-275 text-center">
         <div class="mb-4.5 inline-flex items-center gap-3">
           <span class="h-[1.5px] w-9 bg-red" />
           <span class="font-ui text-[11px] font-semibold tracking-[0.35em] text-red">
@@ -91,32 +91,32 @@ function toggle(id: number) {
         </h1>
 
         <p
-          class="mx-auto mt-5.5 max-w-[620px] font-body text-[22px] text-coffee italic text-pretty"
+          class="mx-auto mt-5.5 max-w-155 font-body text-[22px] text-coffee italic text-pretty"
         >
           One car, one workshop, one set of hands. We're bringing classics back to the road — and
           we'd like you with us from the start.
         </p>
-        <p class="mt-4 font-type text-[12px] tracking-[0.2em] text-mud">↓ TAP THE PHOTO ↓</p>
+        <p class="mt-4 font-type text-xs tracking-[0.2em] text-mud">↓ TAP THE PHOTO ↓</p>
       </div>
 
       <!-- Polaroid frame -->
       <div
-        class="relative mx-auto max-w-[1240px] border border-ink/8 bg-white px-7 pt-7 pb-16 shadow-[0_30px_60px_-20px_rgba(26,19,17,0.35),0_8px_16px_-8px_rgba(26,19,17,0.2)]"
+        class="relative mx-auto max-w-310 border border-ink/8 bg-white px-7 pt-7 pb-16 shadow-[0_30px_60px_-20px_rgba(26,19,17,0.35),0_8px_16px_-8px_rgba(26,19,17,0.2)]"
       >
         <!-- tape -->
         <div
-          class="absolute -top-3.5 left-20 h-7 w-[110px] -rotate-3 border border-red/25 bg-red/18"
+          class="absolute -top-3.5 left-20 h-7 w-27.5 -rotate-3 border border-red/25 bg-red/18"
         />
         <div
-          class="absolute -top-3.5 right-20 h-7 w-[110px] rotate-2 border border-red/25 bg-red/18"
+          class="absolute -top-3.5 right-20 h-7 w-27.5 rotate-2 border border-red/25 bg-red/18"
         />
 
         <!-- Image area -->
-        <div class="stripes relative aspect-[16/9.5] overflow-hidden bg-[#d4cfc4]">
+        <div class="stripes relative aspect-16/9.5 overflow-hidden bg-[#d4cfc4]">
           <!-- centre placeholder label -->
           <div class="absolute inset-0 flex flex-col items-center justify-center gap-1.5">
             <div
-              class="border-[1.5px] border-ink bg-cream/90 px-5.5 py-3.5 font-type text-[12px] tracking-[0.25em] text-ink"
+              class="border-[1.5px] border-ink bg-cream/90 px-5.5 py-3.5 font-type text-xs tracking-[0.25em] text-ink"
             >
               [ HERO CAR PHOTO ]
             </div>
@@ -169,7 +169,7 @@ function toggle(id: number) {
               <span class="my-1.5 block font-display text-[22px] leading-none uppercase">
                 {{ spot.title }}
               </span>
-              <span class="block font-body text-[13.5px] leading-[1.5] text-ink-soft">
+              <span class="block font-body text-[13.5px] leading-normal text-ink-soft">
                 {{ spot.body }}
               </span>
             </span>

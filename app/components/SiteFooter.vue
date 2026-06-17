@@ -9,16 +9,16 @@ const socials = [
 
 <template>
   <footer class="border-t-4 border-red bg-ink-black px-8 pt-12 pb-7 text-tan">
-    <div class="mx-auto max-w-[1320px]">
+    <div class="mx-auto max-w-330">
       <div
         class="grid gap-12 border-b border-cream/12 pb-8 md:grid-cols-[1.4fr_1fr_1fr]"
       >
         <!-- Brand -->
         <div>
-          <div class="font-display text-[36px] leading-none text-cream uppercase">
+          <div class="font-display text-4xl leading-none text-cream uppercase">
             Classic <span class="text-red">Restorations</span>
           </div>
-          <p class="mt-2.5 max-w-[360px] font-body text-[14.5px] leading-[1.5] text-tan italic">
+          <p class="mt-2.5 max-w-90 font-body text-[14.5px] leading-normal text-tan italic">
             A London workshop bringing classic cars back to the road — one at a time, the way they
             should be done.
           </p>
