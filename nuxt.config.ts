@@ -7,6 +7,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  modules: [
+    '@nuxt/ui',
+  ],
+
   vite: {
     plugins: [tailwindcss()],
   },
