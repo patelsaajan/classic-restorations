@@ -18,7 +18,7 @@ const socials = [
           <div class="font-display text-[36px] leading-none text-cream uppercase">
             Classic <span class="text-red">Restorations</span>
           </div>
-          <p class="mt-[10px] max-w-[360px] font-body text-[14.5px] leading-[1.5] text-tan italic">
+          <p class="mt-2.5 max-w-[360px] font-body text-[14.5px] leading-[1.5] text-tan italic">
             A London workshop bringing classic cars back to the road — one at a time, the way they
             should be done.
           </p>
@@ -26,15 +26,15 @@ const socials = [
 
         <!-- Socials -->
         <div>
-          <div class="mb-[14px] font-ui text-[11px] font-semibold tracking-[0.25em] text-red">
+          <div class="mb-3.5 font-ui text-[11px] font-semibold tracking-[0.25em] text-red">
             FOLLOW THE BUILD
           </div>
-          <div class="flex flex-col gap-[10px] font-body text-[14.5px]">
+          <div class="flex flex-col gap-2.5 font-body text-[14.5px]">
             <a
               v-for="social in socials"
               :key="social.name"
               :href="social.href"
-              class="flex items-center gap-[10px] text-cream no-underline"
+              class="flex items-center gap-2.5 text-cream no-underline"
             >
               <span class="inline-block h-2 w-2 bg-red" />
               {{ social.name }}
@@ -45,7 +45,7 @@ const socials = [
 
         <!-- Contact -->
         <div>
-          <div class="mb-[14px] font-ui text-[11px] font-semibold tracking-[0.25em] text-red">
+          <div class="mb-3.5 font-ui text-[11px] font-semibold tracking-[0.25em] text-red">
             GET IN TOUCH
           </div>
           <address class="font-body text-[14.5px] leading-[1.7] text-cream not-italic">
@@ -57,7 +57,7 @@ const socials = [
       </div>
 
       <div
-        class="flex items-center justify-between pt-[22px] font-ui text-[11px] font-medium tracking-[0.2em] text-mud uppercase"
+        class="flex items-center justify-between pt-5.5 font-ui text-[11px] font-medium tracking-[0.2em] text-mud uppercase"
       >
         <div>© 2026 Classic Restorations Ltd · All rights reserved</div>
         <div>Built in London · One car at a time</div>

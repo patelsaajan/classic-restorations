@@ -11,7 +11,7 @@ const stats = [
   <section id="sam" class="bg-cream px-8 pt-24 pb-20">
     <div class="mx-auto max-w-[1180px]">
       <div class="mb-8 flex items-center justify-between gap-6">
-        <div class="flex items-center gap-[14px]">
+        <div class="flex items-center gap-3.5">
           <span class="h-[1.5px] w-10 bg-red" />
           <span class="font-ui text-[11px] font-semibold tracking-[0.35em] text-red">
             CHAPTER ONE · THE MAN BEHIND IT
@@ -25,7 +25,7 @@ const stats = [
         <div>
           <h2 class="m-0 mb-2 font-display text-[clamp(56px,8vw,104px)] leading-[0.9] uppercase">
             Meet<br />
-            <span class="inline-block bg-ink px-[14px] pt-[2px] pb-2 text-cream">Sam.</span>
+            <span class="inline-block bg-ink px-3.5 pt-0.5 pb-2 text-cream">Sam.</span>
           </h2>
 
           <p
@@ -37,8 +37,8 @@ const stats = [
           <div class="max-w-[560px] space-y-4 font-body text-[16.5px] leading-[1.7] text-ink-soft text-pretty">
             <p class="m-0">
               Sam spent <strong>30 years</strong> behind the wheel of a London black cab. He knows
-              the city inside out — every shortcut, every backstreet, every place that does a proper
-              bacon sandwich at 4am.
+              the city inside out — every shortcut, every backstreet, every greasy spoon that's been
+              there since before the congestion charge.
             </p>
             <p class="m-0">
               One of his old cabs is on display in a museum with <strong>over a million miles</strong>
@@ -58,7 +58,7 @@ const stats = [
               <dd class="m-0 font-display text-[56px] leading-none text-red">
                 {{ stat.value }}<span class="text-[22px] text-ink">{{ stat.unit }}</span>
               </dd>
-              <dt class="mt-[6px] font-ui text-[11px] font-medium tracking-[0.2em] text-mud uppercase">
+              <dt class="mt-1.5 font-ui text-[11px] font-medium tracking-[0.2em] text-mud uppercase">
                 {{ stat.label }}
               </dt>
             </div>
@@ -76,7 +76,7 @@ const stats = [
             <div class="stripes-dark relative aspect-[4/5] bg-ink-soft">
               <div class="absolute inset-0 flex flex-col items-center justify-center gap-2">
                 <div
-                  class="border-[1.5px] border-ink bg-cream/95 px-4 py-[10px] font-type text-[11px] tracking-[0.25em] text-ink"
+                  class="border-[1.5px] border-ink bg-cream/95 px-4 py-2.5 font-type text-[11px] tracking-[0.25em] text-ink"
                 >
                   [ PORTRAIT OF SAM ]
                 </div>
@@ -85,12 +85,12 @@ const stats = [
                 </div>
               </div>
             </div>
-            <figcaption class="mt-[14px] text-center font-hand text-[24px] font-medium text-ink">
+            <figcaption class="mt-3.5 text-center font-hand text-[24px] font-medium text-ink">
               Sam, somewhere south of the river
             </figcaption>
           </figure>
 
-          <aside class="mt-7 border-l-4 border-red bg-ink px-6 py-[22px] text-cream">
+          <aside class="mt-7 border-l-4 border-red bg-ink px-6 py-5.5 text-cream">
             <div class="font-ui text-[11px] font-semibold tracking-[0.3em] text-red">FOOTNOTE</div>
             <p class="mt-2 font-body text-[15.5px] leading-[1.5] italic">
               The million-mile cab is currently on display. We've been told it's the only one of its

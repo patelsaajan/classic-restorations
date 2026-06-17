@@ -25,7 +25,7 @@ const hotspots: Hotspot[] = [
     title: 'Found in Kent',
     body: 'Original glass. Took four months and a long drive on a Sunday. Worth every mile.',
     dot: 'left-[16%] top-[32%]',
-    card: 'top-0 left-[52px] w-[250px] border-l-[3px] border-red',
+    card: 'top-0 left-13 w-72 border-l-3 border-red',
     align: 'text-left',
     delay: 'motion-safe:[animation-delay:0s]',
   },
@@ -35,7 +35,7 @@ const hotspots: Hotspot[] = [
     title: 'Stripped to bare metal',
     body: 'Three months of welding before primer. You can still see where the hammer kissed it — if you know where to look.',
     dot: 'left-[48%] top-[52%]',
-    card: 'bottom-[52px] left-[-180px] w-[270px] border-l-[3px] border-red',
+    card: 'bottom-13 -left-45 w-72 border-l-3 border-red',
     align: 'text-left',
     delay: 'motion-safe:[animation-delay:0.3s]',
   },
@@ -45,7 +45,7 @@ const hotspots: Hotspot[] = [
     title: 'Mixed three times',
     body: 'Sam is particular. The colour had to match a photograph from 1963. It does now.',
     dot: 'left-[76%] top-[38%]',
-    card: 'top-0 right-[52px] w-[250px] border-r-[3px] border-red',
+    card: 'top-0 right-13 w-72 border-r-3 border-red',
     align: 'text-right',
     delay: 'motion-safe:[animation-delay:0.6s]',
   },
@@ -55,7 +55,7 @@ const hotspots: Hotspot[] = [
     title: 'All 60 spokes',
     body: 'Rebuilt one at a time. The original spokes are still on her — we just put them back where they belonged.',
     dot: 'left-[35%] top-[78%]',
-    card: 'bottom-[52px] left-[52px] w-[250px] border-l-[3px] border-red',
+    card: 'bottom-13 left-13 w-72 border-l-3 border-red',
     align: 'text-left',
     delay: 'motion-safe:[animation-delay:0.9s]',
   },
@@ -73,7 +73,7 @@ function toggle(id: number) {
     <div class="mx-auto max-w-[1320px]">
       <!-- Title block -->
       <div class="mx-auto mb-9 max-w-[1100px] text-center">
-        <div class="mb-[18px] inline-flex items-center gap-3">
+        <div class="mb-4.5 inline-flex items-center gap-3">
           <span class="h-[1.5px] w-9 bg-red" />
           <span class="font-ui text-[11px] font-semibold tracking-[0.35em] text-red">
             THE WORKSHOP · NO. 01
@@ -86,12 +86,12 @@ function toggle(id: number) {
         >
           Classic<br />
           <span class="relative inline-block">
-            <span class="inline-block bg-red px-[18px] pb-[6px] text-cream">Restorations</span>
+            <span class="inline-block bg-red px-4.5 pb-1.5 text-cream">Restorations</span>
           </span>
         </h1>
 
         <p
-          class="mx-auto mt-[22px] max-w-[620px] font-body text-[22px] text-coffee italic text-pretty"
+          class="mx-auto mt-5.5 max-w-[620px] font-body text-[22px] text-coffee italic text-pretty"
         >
           One car, one workshop, one set of hands. We're bringing classics back to the road — and
           we'd like you with us from the start.
@@ -105,18 +105,18 @@ function toggle(id: number) {
       >
         <!-- tape -->
         <div
-          class="absolute -top-[14px] left-20 h-7 w-[110px] -rotate-3 border border-red/25 bg-red/18"
+          class="absolute -top-3.5 left-20 h-7 w-[110px] -rotate-3 border border-red/25 bg-red/18"
         />
         <div
-          class="absolute -top-[14px] right-20 h-7 w-[110px] rotate-2 border border-red/25 bg-red/18"
+          class="absolute -top-3.5 right-20 h-7 w-[110px] rotate-2 border border-red/25 bg-red/18"
         />
 
         <!-- Image area -->
         <div class="stripes relative aspect-[16/9.5] overflow-hidden bg-[#d4cfc4]">
           <!-- centre placeholder label -->
-          <div class="absolute inset-0 flex flex-col items-center justify-center gap-[6px]">
+          <div class="absolute inset-0 flex flex-col items-center justify-center gap-1.5">
             <div
-              class="border-[1.5px] border-ink bg-cream/90 px-[22px] py-[14px] font-type text-[12px] tracking-[0.25em] text-ink"
+              class="border-[1.5px] border-ink bg-cream/90 px-5.5 py-3.5 font-type text-[12px] tracking-[0.25em] text-ink"
             >
               [ HERO CAR PHOTO ]
             </div>
@@ -154,7 +154,7 @@ function toggle(id: number) {
             </span>
 
             <span
-              class="absolute z-10 bg-white px-4 pt-[14px] pb-4 shadow-[0_12px_28px_rgba(26,19,17,0.35)] transition-[opacity,transform] duration-200 group-hover:translate-y-0 group-hover:scale-100 group-hover:opacity-100"
+              class="absolute z-10 bg-white px-4 pt-3.5 pb-4 shadow-[0_12px_28px_rgba(26,19,17,0.35)] transition-[opacity,transform] duration-200 group-hover:translate-y-0 group-hover:scale-100 group-hover:opacity-100"
               :class="[
                 spot.card,
                 spot.align,
@@ -166,7 +166,7 @@ function toggle(id: number) {
               <span class="block font-ui text-[11px] font-semibold tracking-[0.2em] text-red">
                 {{ spot.kicker }}
               </span>
-              <span class="my-[6px] block font-display text-[22px] leading-none uppercase">
+              <span class="my-1.5 block font-display text-[22px] leading-none uppercase">
                 {{ spot.title }}
               </span>
               <span class="block font-body text-[13.5px] leading-[1.5] text-ink-soft">
@@ -177,7 +177,7 @@ function toggle(id: number) {
         </div>
 
         <!-- caption -->
-        <p class="mt-[22px] text-center font-hand text-[26px] font-medium text-ink">
+        <p class="mt-5.5 text-center font-hand text-[26px] font-medium text-ink">
           "she runs better now than she did in '63"
           <span class="mt-1 block font-ui text-[11px] font-medium tracking-[0.3em] text-mud">
             — SAM, ON THE FIRST FINISHED PIECE

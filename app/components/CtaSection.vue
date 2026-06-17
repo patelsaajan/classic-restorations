@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-[980px] text-center">
       <div class="font-ui text-[11px] font-semibold tracking-[0.35em] text-red">LAST CALL</div>
       <h3
-        class="mt-[14px] mb-[22px] font-display text-[clamp(48px,6.5vw,80px)] leading-[0.95] uppercase"
+        class="mt-3.5 mb-5.5 font-display text-[clamp(48px,6.5vw,80px)] leading-[0.95] uppercase"
       >
         Want a slot when we open?
       </h3>
@@ -13,7 +13,7 @@
       </p>
       <a
         href="#waitlist"
-        class="inline-flex items-center gap-[14px] border-[1.5px] border-red bg-red px-8 py-[18px] font-ui text-[14px] font-bold tracking-[0.3em] text-white uppercase no-underline transition-colors duration-200 hover:bg-transparent hover:text-red"
+        class="inline-flex items-center gap-3.5 border-[1.5px] border-red bg-red px-8 py-4.5 font-ui text-[14px] font-bold tracking-[0.3em] text-white uppercase no-underline transition-colors duration-200 hover:bg-transparent hover:text-red"
       >
         <span>Hold my spot</span>
         <span class="font-display text-[18px]">→</span>

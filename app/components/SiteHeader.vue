@@ -11,10 +11,10 @@ const links = [
 <template>
   <header class="bg-ink text-cream">
     <div
-      class="mx-auto flex max-w-[1320px] items-center justify-between border-b border-cream/15 px-8 py-[14px]"
+      class="mx-auto flex max-w-[1320px] items-center justify-between border-b border-cream/15 px-8 py-3.5"
     >
-      <div class="flex items-baseline gap-[14px]">
-        <div class="bg-red px-[9px] py-1 font-ui text-[11px] font-bold tracking-[0.12em] text-white">
+      <div class="flex items-baseline gap-3.5">
+        <div class="bg-red px-2 py-1 font-ui text-[11px] font-bold tracking-[0.12em] text-white">
           EST. 2026
         </div>
         <div class="font-type text-[11px] tracking-[0.25em] text-tan">LONDON · UK</div>
