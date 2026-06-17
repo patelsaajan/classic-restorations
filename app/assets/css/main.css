@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------ */
+/* Design tokens — Classic Restorations                                */
+/* nostalgic Americana: warm cream + ink black + classic-car red       */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-ink: #1a1311;
+  --color-ink-soft: #2a2118;
+  --color-ink-deep: #221a13;
+  --color-ink-black: #0d0907;
+  --color-cream: #f5f0e8;
+  --color-red: #c8302a;
+  --color-red-soft: #fbebe9;
+  --color-tan: #c4b59a;
+  --color-mud: #6b5d4a;
+  --color-coffee: #4a3d33;
+
+  --font-display: 'Anton', sans-serif;
+  --font-ui: 'Oswald', sans-serif;
+  --font-body: 'Lora', serif;
+  --font-type: 'Special Elite', monospace;
+  --font-hand: 'Caveat', cursive;
+}
+
+/* ------------------------------------------------------------------ */
+/* Utilities that can't be expressed as composed utility classes       */
+/* ------------------------------------------------------------------ */
+
+/* hatched placeholder fills standing in for real photography */
+@utility stripes {
+  background-image: repeating-linear-gradient(45deg, #d4cfc4 0 14px, #c2bcae 14px 28px);
+}
+@utility stripes-dark {
+  background-image: repeating-linear-gradient(45deg, #2a2118 0 14px, #221a13 14px 28px);
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(2px, -1px);
+  }
+}
+
+body {
+  margin: 0;
+  background: #1a1311;
+}
